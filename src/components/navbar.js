@@ -1,7 +1,9 @@
-import React from "react";
-// import { FaBars } from "react-icons/fa6";
+import React, { useState } from "react";
+import { FaBars, FaX } from "react-icons/fa6";
+import logo from "../assets/logo.svg";
 
-const navbar = () => {
+const Navbar = () => {
+  const [nav, setNav] = useState(false);
   const links = [
     {
       id: 1,
@@ -20,22 +22,30 @@ const navbar = () => {
       link: "Contact",
     },
   ];
+
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              alt="Flowbite Logo"
-              className="h-8 mr-3"
-            />
-            <span className=" text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <img src={logo} alt="My Logo" className="h-8 mr-3" />
+            <span className="text-2xl font-semibold whitespace-nowrap dark:text-white">
               RisCode
             </span>
           </a>
 
-          <div className="hidden w-full md:block md:w-auto">
+          <div
+            onClick={() => setNav(!nav)}
+            className="cursor-pointer dark:text-white md:hidden"
+          >
+            {nav ? <FaX size={30} /> : <FaBars size={30} />}
+          </div>
+
+          <div
+            className={`${
+              nav ? "block" : "hidden"
+            } w-full  md:block md:w-auto md:flex`}
+          >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               {links.map(({ id, link }) => (
                 <li
@@ -53,4 +63,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
