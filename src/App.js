@@ -1,15 +1,16 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
-import socialLinks from "./components/socialLinks";
+import About from "./components/about";
+import Portfolio from "./components/portfolio";
 
 function App() {
   return (
     <>
       <Navbar />
       <Home />
-
-      <socialLinks />
+      <About />
+      <Portfolio />
     </>
   );
 }
