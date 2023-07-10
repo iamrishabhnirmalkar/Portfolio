@@ -15,8 +15,12 @@ function contact() {
             Here You can contact me for and queery
           </p>
           <form
-            action="https://getform.io/f/51ad49f8-186c-41c5-a01f-e8e8bea65475"
             className="space-y-8"
+            name="Contact"
+            method="post"
+            data-netlify="true"
+            onSubmit="submit"
+            data-netlify-honeypot="bot-field"
           >
             <div>
               <label
