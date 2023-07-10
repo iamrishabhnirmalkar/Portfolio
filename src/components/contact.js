@@ -20,6 +20,7 @@ function contact() {
             method="post"
             data-netlify="true"
             onSubmit="submit"
+            action="/susse"
             data-netlify-honeypot="bot-field"
           >
             <div>
