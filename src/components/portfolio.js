@@ -32,7 +32,10 @@ function portfolio() {
   ];
   return (
     <>
-      <div className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+      <div
+        name="portfolio"
+        className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700"
+      >
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
           <div className="max-w-2xl mx-auto text-center">
             <h1 className="mb-4 text-4xl tracking-tight font-extrabold lg:text-8xl text-primary-600 dark:text-primary-500 dark:text-white">
