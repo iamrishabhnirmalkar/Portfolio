@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaX } from "react-icons/fa6";
 import { Link } from "react-scroll";
-import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
