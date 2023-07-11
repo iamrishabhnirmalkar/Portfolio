@@ -13,15 +13,19 @@ function about() {
               About
             </h1>
             <p className="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
-              This is Rishabh Nirmalkar and i am web devloper and a digital
-              marketer.
+              Hello, I'm Rishabh Nirmalkar, an experienced Social Media Manager,
+              and Web Developer with expertise in Canva, Illustrator, Photoshop
+              for graphic design, and WordPress for web development.
             </p>
             <br />
             <p className="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sed
-              cumque quisquam labore, iure cum quia minus aliquam laboriosam
-              tempora, eius, sit laudantium doloribus dolores est excepturi
-              minima ipsam magni.
+              I am a Student with experience in Mongo DB, Express JS, Node JS,
+              React JS, and WordPress development. I have learned all of my
+              skills through self-study and online courses. In the process of
+              learning, I have developed a number of projects, which are
+              showcased in my portfolio. I am also familiar with social media
+              marketing, such as Facebook ads. I am a well-rounded individual
+              who is always eager to learn new things.
             </p>
           </div>
         </div>
