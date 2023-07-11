@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaX } from "react-icons/fa6";
 import { Link } from "react-scroll";
+import Logo from "../assets/logo.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
-            <img src={logo} alt="My Logo" className="h-8 mr-3" />
+            <img src={Logo} alt="My Logo" className="h-8 mr-3" />
             <span className="text-2xl font-semibold whitespace-nowrap dark:text-white">
               RisCode
             </span>
