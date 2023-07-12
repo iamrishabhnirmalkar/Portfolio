@@ -15,7 +15,7 @@ function home() {
               Hello, I'm Rishabh Nirmalkar
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              a Full Stack Web Developer and Digital Marketer.
+              a Full Stack Web Developer and Content Creater.
             </p>
             <div>
               <button className="  bg-purple-500 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded inline-flex items-center">
