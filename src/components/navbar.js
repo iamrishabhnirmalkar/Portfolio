@@ -26,8 +26,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 ">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700  relative ">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
           <a href="/" className="flex items-center">
             <img src={Logo} alt="My Logo" className="h-8 mr-3" />
             <span className="text-2xl font-semibold whitespace-nowrap dark:text-white">
